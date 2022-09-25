@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.invalidObjectArrayMock = exports.objectArrayMock = exports.formulaWithStartingSpace = exports.twoJsonPathsAndFormula = exports.jsonPathFormulaJsonPath = exports.formulaAndTwoJsonPaths = exports.buildExpression = exports.sumExpression = exports.formulaCommonBundle = void 0;
-exports.formulaCommonBundle = {
+exports.invalidObjectArrayMock = exports.objectArrayMock = exports.formulaWithStartingSpace = exports.twoJsonPathsAndFormula = exports.jsonPathFormulaJsonPath = exports.formulaAndTwoJsonPaths = exports.buildExpression = exports.sumExpression = exports.formulaCommonDataSource = void 0;
+exports.formulaCommonDataSource = {
     jsonPath1: { balance: 500 },
     jsonPath2: { balance: 1000 },
 };

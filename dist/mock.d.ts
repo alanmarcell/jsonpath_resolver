@@ -1,4 +1,4 @@
-export declare const formulaCommonBundle: {
+export declare const formulaCommonDataSource: {
     jsonPath1: {
         balance: number;
     };
