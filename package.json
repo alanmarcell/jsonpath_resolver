@@ -1,0 +1,38 @@
+{
+  "name": "jsonpath-resolver",
+  "version": "0.0.0",
+  "description": "JSON Path Resolver",
+  "author": "F3 Capital",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Alan Marcell",
+      "email": "alanmarcell@live.com"
+    }
+  ],
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "npx jest --forceExit --ci --maxWorkers=1",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "build": "rimraf dist && tsc"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/jsonpath": "^0.2.0",
+    "@types/ramda": "^0.28.15",
+    "jest": "^27.5.1",
+    "merge": "^2.1.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "jsonpath": "^1.1.1",
+    "ramda": "^0.28.0"
+  }
+}
